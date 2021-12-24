@@ -1,2 +1,60 @@
 @import "variables";
 @import "globals";
+
+header {
+  background-color: black;
+  color: white;
+
+  padding: 2em;
+  text-align: center;
+  h1 {
+    font-family: "Passion One", cursive;
+    font-variant: small-caps;
+    font-size: 3em;
+  }
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+}
+
+section {
+  padding: 4em 2em;
+}
+
+.normal {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: relative;
+  p {
+    margin-bottom: 1em;
+  }
+}
+.image {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  p {
+    padding: 0.5em;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+#img01 {
+  background-image: url("../images/background001.jpg");
+}
+#img02 {
+  background-image: url("../images/background002.jpg");
+}
+
+footer {
+  padding: 0.5em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
