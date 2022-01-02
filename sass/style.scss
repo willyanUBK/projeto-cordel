@@ -1,6 +1,7 @@
 @import "variables";
 @import "globals";
 
+// cabeçalho
 header {
   background-color: black;
   color: white;
@@ -18,10 +19,11 @@ header {
   }
 }
 
-section {
-  padding: 4em 2em;
+section{
+  padding: 10vh 2em;
+  line-height: 2em;
 }
-
+// classes de section
 .normal {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   z-index: 1;
@@ -43,6 +45,7 @@ section {
     background-color: rgba(0, 0, 0, 0.5);
   }
 }
+// id's das imagens
 #img01 {
   background-image: url("../images/background001.jpg");
 }
@@ -50,6 +53,7 @@ section {
   background-image: url("../images/background002.jpg");
 }
 
+// rodapé
 footer {
   padding: 0.5em;
   text-align: center;
